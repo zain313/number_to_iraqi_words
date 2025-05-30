@@ -80,7 +80,7 @@ dependencies:
 dart test
 ```
 
-### الملف الرئيسي للاختبار:
+### الملف الرئيسي للاختبار | Main test file :
 
 ```
 test/number_to_iraqi_words_test.dart
@@ -90,8 +90,7 @@ test/number_to_iraqi_words_test.dart
 
 ## 🧑‍💻 المطور | Owner
 
-تم تطوير هذه المكتبة بواسطة:
-
+This library was developed by :
 **Zain Alabdeen Ali**  
 📍 Iraq / Wasit
 
@@ -108,4 +107,4 @@ test/number_to_iraqi_words_test.dart
 ## 📄 الرخصة | License
 
 MIT License © 2025 Zain Alabdeen Ali  
-يُسمح باستخدام وتعديل ونشر هذا المشروع بحرية مع الحفاظ على الاشارة للمصدر.
+You are free to use, modify, and distribute it, provided that proper credit is given to the original author.
