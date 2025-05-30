@@ -94,6 +94,7 @@ test/number_to_iraqi_words_test.dart
 
 📧 zainz4700@gmail.com🔗
 
+- [GitHub](https://github.com/zain313)
 - [LinkedIn](https://www.linkedin.com/in/itzainali/)
 - [Instagram](https://www.instagram.com/it.zain.ali/)
 - [Facebook](https://www.facebook.com/zainalabdeen.ali.2)
