@@ -1,0 +1,29 @@
+# Dart/Pub
+.dart_tool/
+.packages
+.pub/
+build/
+*.lock
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android Emulator & system files
+.android/
+*.img
+*.qcow2
+*.ini
+*.xml
+*.bin
+*.db
+*.exe
+*.dll
+*.log
+*.json
+*.cache
+windows/
