@@ -1,7 +1,7 @@
 # 🇮🇶 number_to_iraqi_words Version 0.0.1
 
-مكتبة بلغة Dart لتحويل الارقام إلى كتابة باللهجة العراقية.  
-تدعم الارقام من صفر إلى ترليون، بما في ذلك الفواصل العشرية، وتوفر معالجة لغوية ذكية لتصريف الاعداد كما يُنطق بها باللهجة العراقية.
+A Dart library to convert numbers into words in the Iraqi dialect.
+It supports numbers from zero to trillion, including decimal points, and provides smart linguistic processing to conjugate numbers as they are spoken in the Iraqi Arabic language.
 
 ![image](https://github.com/user-attachments/assets/907a036f-63cf-4313-a842-1d359d13ed93)
 
