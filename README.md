@@ -37,14 +37,14 @@ void main() {
 
 ## 📦 التثبيت | Installation
 
-### ✅ اذا كنت تستخدم المكتبة من pub.dev:
+### If you're using the package from pub.dev :
 
 ```yaml
 dependencies:
   number_to_iraqi_words: ^1.0.0
 ```
 
-ثم شغّل احد الاوامر التالية:
+Then run one of the following commands :
 
 ```bash
 dart pub get
@@ -58,7 +58,7 @@ flutter pub get
 
 ---
 
-### ✅ إذا كنت تستخدم المكتبة كملف محلي (مثلاً من GitHub):
+### If you're using the package as a local file (e.g. from GitHub) :
 
 ```yaml
 dependencies:
@@ -70,15 +70,15 @@ dependencies:
 
 ## 🧪 اختبارات الوحدة | Unit Tests
 
-تم اعداد اختبارات تحقق تلقائية باستخدام `package:test` 
+Automated verification tests have been set up using the `package:test` library to ensure accuracy.
 
-### لتشغيل جميع الاختبارات:
+### To run all tests  
 
 ```bash
 dart test
 ```
 
-### الملف الرئيسي للاختبار | Main test file :
+### Main test file :
 
 ```
 test/number_to_iraqi_words_test.dart
