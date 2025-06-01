@@ -50,8 +50,7 @@ Then run one of the following commands :
 dart pub get
 ```
 
-أو:
-
+Or :
 ```bash
 flutter pub get
 ```
