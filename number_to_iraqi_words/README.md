@@ -44,7 +44,7 @@ dependencies:
   number_to_iraqi_words: ^1.0.0
 ```
 
-ثم شغّل احد الاوامر التالية:
+Then run one of the following commands :
 
 ```bash
 dart pub get
