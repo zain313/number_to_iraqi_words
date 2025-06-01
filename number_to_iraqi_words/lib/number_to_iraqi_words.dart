@@ -2,18 +2,42 @@ library number_to_iraqi_words;
 
 class NumberToIraqiWords {
   static const List<String> _units = [
-    "", "واحد", "اثنين", "تلاثة", "أربعة", "خمسة",
-    "ستة", "سبعة", "ثمانية", "تسعة"
+    "",
+    "واحد",
+    "اثنين",
+    "تلاثة",
+    "أربعة",
+    "خمسة",
+    "ستة",
+    "سبعة",
+    "ثمانية",
+    "تسعة"
   ];
 
   static const List<String> _tens = [
-    "", "عشرة", "عشرين", "تلاثين", "أربعين", "خمسين",
-    "ستين", "سبعين", "ثمانين", "تسعين"
+    "",
+    "عشرة",
+    "عشرين",
+    "تلاثين",
+    "أربعين",
+    "خمسين",
+    "ستين",
+    "سبعين",
+    "ثمانين",
+    "تسعين"
   ];
 
   static const List<String> _teens = [
-    "عشرة", "اهدعش", "اثنعش", "تلطعش", "اربعطعش",
-    "خمسطعش", "ستطعش", "سبعطعش", "ثمنطعش", "تسعطعش"
+    "عشرة",
+    "اهدعش",
+    "اثنعش",
+    "تلطعش",
+    "اربعطعش",
+    "خمسطعش",
+    "ستطعش",
+    "سبعطعش",
+    "ثمنطعش",
+    "تسعطعش"
   ];
 
   static String _correctHundreds(int hundred) {
@@ -55,9 +79,7 @@ class NumberToIraqiWords {
     if (number < 100) {
       int ten = number ~/ 10;
       int unit = number % 10;
-      return unit == 0
-          ? _tens[ten]
-          : "${_units[unit]} و ${_tens[ten]}";
+      return unit == 0 ? _tens[ten] : "${_units[unit]} و ${_tens[ten]}";
     }
 
     if (number < 1000) {

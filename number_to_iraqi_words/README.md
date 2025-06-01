@@ -1,7 +1,10 @@
-# 🇮🇶 number_to_iraqi_words
+# 🇮🇶 number_to_iraqi_words Version 0.0.1
 
-مكتبة بلغة Dart لتحويل الارقام إلى كتابة باللهجة العراقية.  
-تدعم الارقام من صفر إلى ترليون، بما في ذلك الفواصل العشرية، وتوفر معالجة لغوية ذكية لتصريف الاعداد كما يُنطق بها باللهجة العراقية.
+A Dart library to convert numbers into words in the Iraqi dialect.
+It supports numbers from zero to trillion, including decimal points, and provides smart linguistic processing to conjugate numbers as they are spoken in the Iraqi Arabic language.
+
+![image](https://github.com/user-attachments/assets/907a036f-63cf-4313-a842-1d359d13ed93)
+
 
 ---------------
 
@@ -34,7 +37,7 @@ void main() {
 
 ## 📦 التثبيت | Installation
 
-### ✅ اذا كنت تستخدم المكتبة من pub.dev:
+### If you're using the package from pub.dev :
 
 ```yaml
 dependencies:
@@ -55,7 +58,7 @@ flutter pub get
 
 ---
 
-### ✅ إذا كنت تستخدم المكتبة كملف محلي (مثلاً من GitHub):
+### If you're using the package as a local file (e.g. from GitHub) :
 
 ```yaml
 dependencies:
@@ -63,21 +66,19 @@ dependencies:
     path: ./number_to_iraqi_words
 ```
 
-📌 تأكد من ان المسار يشير إلى مكان مجلد المكتبة في جهازك.
-
 ---------------
 
 ## 🧪 اختبارات الوحدة | Unit Tests
 
-تم اعداد اختبارات تحقق تلقائية باستخدام `package:test` لضمان صحة ودقة التحويلات.
+Automated verification tests have been set up using the `package:test` library to ensure accuracy.
 
-### لتشغيل جميع الاختبارات:
+### To run all tests  
 
 ```bash
 dart test
 ```
 
-### الملف الرئيسي للاختبار:
+### Main test file :
 
 ```
 test/number_to_iraqi_words_test.dart
@@ -87,13 +88,13 @@ test/number_to_iraqi_words_test.dart
 
 ## 🧑‍💻 المطور | Owner
 
-تم تطوير هذه المكتبة بواسطة:
-
+This library was developed by :
 **Zain Alabdeen Ali**  
 📍 Iraq / Wasit
 
 📧 zainz4700@gmail.com🔗
 
+- [GitHub](https://github.com/zain313)
 - [LinkedIn](https://www.linkedin.com/in/itzainali/)
 - [Instagram](https://www.instagram.com/it.zain.ali/)
 - [Facebook](https://www.facebook.com/zainalabdeen.ali.2)
@@ -104,4 +105,4 @@ test/number_to_iraqi_words_test.dart
 ## 📄 الرخصة | License
 
 MIT License © 2025 Zain Alabdeen Ali  
-يُسمح باستخدام وتعديل ونشر هذا المشروع بحرية مع الحفاظ على الاشارة للمصدر.
+You are free to use, modify, and distribute it, provided that proper credit is given to the original author.

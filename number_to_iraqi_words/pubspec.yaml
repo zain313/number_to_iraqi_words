@@ -1,7 +1,7 @@
 name: number_to_iraqi_words
 description: Convert numbers to Iraqi Arabic words in Dart.
 version: 1.0.0
-author: Zain Alabdeen Ali <zainz4700@gmail.com>
+homepage: https://github.com/zain313/number_to_iraqi_words
 
 # repository: https://github.com/zain313/number_to_iraqi_words
 

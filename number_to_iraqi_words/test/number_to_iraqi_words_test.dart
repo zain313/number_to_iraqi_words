@@ -22,11 +22,13 @@ void main() {
 
   group('تحويل الارقام العشرية', () {
     test('تحويل 12.25', () {
-      expect(NumberToIraqiWords.convertDouble(12.25), equals('اثنعش فاصلة خمسة و عشرين'));
+      expect(NumberToIraqiWords.convertDouble(12.25),
+          equals('اثنعش فاصلة خمسة و عشرين'));
     });
 
     test('تحويل 0.75', () {
-      expect(NumberToIraqiWords.convertDouble(0.75), equals('صفر فاصلة خمسة و سبعين'));
+      expect(NumberToIraqiWords.convertDouble(0.75),
+          equals('صفر فاصلة خمسة و سبعين'));
     });
   });
 }
